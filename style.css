@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    background-color: #10101a;
+    font-family: Arial, sans-serif;
+}
+
+.banniere {
+    position: relative;
+    width: 100%;
+}
+
+.banniere img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: #FFB000;
+    font-size: 55px;
+    font-weight: bold;
+    text-shadow: 0 0 15px #00e5ff;
+}
